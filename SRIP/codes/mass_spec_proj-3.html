@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .column {
+  float: left;
+}
+
+.left {
+  width: 10%;
+  style="background-color:#bbb;"
+}
+
+.right {
+  width: 90;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 30.33%;
+  padding: 0px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.btn-group button {
+  background-color: Red /*#4CAF50*/; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 5px 10px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 20%; /* Set a width if needed 20%*/
+ margin: 5;/* increase margin*/
+  display: block; /* Make the buttons appear below each other */
+  
+  
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: Pink/*#3e8e41*/;
+}
+</style>
+</head>
+<body>
+
+
+
+
+<div class="row">
+  <div class="column">
+    <div  class="btn-group">
+        <button id='btn1' type="button" >Inject Sample</button>;
+        <button id='btn2' type="button" onclick="function2()">Ionisation</button>;
+        <button id='btn3' type="button" onclick="function3()">Acceleration</button>&nbsp;&nbsp;&nbsp;
+        <button id='btn4' type="button" onclick="function4()">Deflection</button>&nbsp;&nbsp;&nbsp;
+        <button id='btn5' type="button" onclick="function5()">Evaluation</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>  
+    
+    
+  </div>
+  <div class="column">
+    <svg width="770" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+      <defs>
+       <linearGradient id="svg_22">
+        <stop offset="0" stop-color="#b2b2b2"/>
+        <stop offset="1" stop-color="#4d4d4d"/>
+       </linearGradient>
+       <linearGradient id="svg_23">
+        <stop offset="0" stop-color="#999999"/>
+        <stop offset="1" stop-color="#666666"/>
+       </linearGradient>
+       <linearGradient id="svg_26" x1="0" x2="1" y1="0" y2="0">
+        <stop offset="0.95" stop-color="#00ffff"/>
+        <stop offset="1" stop-color="#ff0000"/>
+       </linearGradient>
+       <linearGradient id="svg_2">
+        <stop offset="0" stop-color="#00ff00"/>
+        <stop offset="1" stop-color="#ff00ff"/>
+       </linearGradient>
+      </defs>
+      <g class="layer" display="inline" id="tube">
+       <title>Layer 6</title>
+       <text fill="#000000" font-family="serif" font-size="24" id="svg_32" opacity="0.75" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 1.40705 0 -39.5171)" x="449.5" xml:space="preserve" y="133.5"/>
+       <defs>
+        <linearGradient id="grad1" x1="0%" x2="100%" y1="0%" y2="0%">
+         <stop offset="0%" stop-color="rgb(214,255,255)"/>
+         <stop offset="100%" stop-color="rgb(127,255,212)"/>
+        </linearGradient>
+       </defs>//stop-color:rgb(0,0,225); ////style=&quot;fill:white&quot;
+       <g id="main_tube">
+        <path d="m446.5,284c18.25,11.33 54.75,11.33 73,0" fill="transparent" id="svg_1" stroke="#00ffff" stroke-width="4" transform="rotate(-11.0409 483 288.25)"/>
+        <path d="m422.31,184.86c18.25,11.33 54.75,11.33 73,0" fill="transparent" id="svg_3" stroke="#00ffff" stroke-width="4" transform="rotate(-11.0409 458.814 189.11)"/>
+        <line fill="none" id="svg_5" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" x1="516" x2="753" y1="278.5" y2="105.5"/>
+        <line fill="none" id="svg_8" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="4" x1="494" x2="689" y1="178.5" y2="38.5"/>
+        <path d="m676.05,65.39c24.28,17.41 72.84,17.41 97.11,0" fill="transparent" id="svg_9" stroke="#00ffff" stroke-width="2" transform="rotate(-132.332 724.61 71.9238)"/>
+        <line fill="none" id="svg_10" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="4" x1="424" x2="56" y1="193.5" y2="100.5"/>
+        <line fill="none" id="svg_11" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="4" x1="450" x2="34" y1="291.5" y2="195.5"/>
+        <path d="m-9.12,140.48c24.4,17.41 73.2,17.41 97.6,0" fill="transparent" id="svg_4" stroke="#00ffff" stroke-width="4" transform="rotate(104.864 39.679 147.014)"/>
+        <rect fill="#56ffff" height="24" id="svg_6" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" transform="rotate(19.9037 39.239 147.578)" width="48.79" x="14.84" y="135.58"/>
+        <ellipse cx="126.29" cy="197.83" fill="#ffaaaa" id="svg_14" rx="65.21" ry="18" stroke="#ffaaaa" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" transform="rotate(14.9661 126.289 197.829)"/>
+        <ellipse cx="125.28" cy="195.36" fill="#56ffff" id="svg_34" rx="54.62" ry="10.28" stroke="#56ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="3" transform="rotate(14.0594 125.275 195.36)"/>
+        <path d="m113.06,136.64l15.75,0l2.18,-6.2l3.57,11.93l3.96,-12.08l3.47,11.93l3.76,-11.77l3.76,11.85l2.08,-5.81l15.85,0m-55.69,-0.54l1.31,0l0,1.31l-1.31,0l0,-1.31zm55.69,-0.09l1.31,0l0,1.31l-1.31,0l0,-1.31z" fill="none" id="svg_12" stroke="#ff0000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="3" transform="rotate(12.1014 140.247 136.33)"/>
+        <line fill="none" id="svg_13" stroke="#191919" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="3" transform="rotate(8.45503 114.77 115.412)" x1="112.27" x2="117.27" y1="131.45" y2="99.38"/>
+        <line fill="none" id="svg_16" stroke="#7f7f7f" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="3" x1="167" x2="175" y1="145.5" y2="115.5"/>
+        <ellipse cx="653.5" cy="118.05" fill="#cccccc" id="svg_17" rx="10.67" ry="45.3" stroke="#cccccc" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="3" transform="rotate(-35.2354 653.501 118.047)"/>
+        <ellipse cx="246.45" cy="197.64" fill="#7f7f7f" id="svg_27" opacity="0.75" rx="10.49" ry="33.04" stroke="url(#svg_26)" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="0.66" stroke-width="3" transform="rotate(-2.29061 248.398 198.444)"/>
+        <ellipse cx="245.7" cy="195.44" fill="url(#svg_22)" fill-opacity="0.69" id="svg_21" rx="15.5" ry="47.49" stroke="url(#svg_23)" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="0.65" stroke-width="2" transform="rotate(-2.29061 248.398 198.444)"/>
+        <ellipse cx="248.76" cy="198.07" fill="#cccccc" id="svg_24" opacity="0.75" rx="2.98" ry="15.37" stroke="#cccccc" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" transform="rotate(-2.29061 248.763 198.069)"/>
+        <ellipse cx="290.87" cy="209.59" fill="#7f7f7f" id="svg_38" opacity="0.75" rx="10.49" ry="33.04" stroke="url(#svg_26)" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="0.66" stroke-width="3" transform="rotate(-2.29061 292.819 210.396)"/>
+        <ellipse cx="290.12" cy="207.39" fill="url(#svg_22)" fill-opacity="0.69" id="svg_37" rx="15.5" ry="47.49" stroke="url(#svg_23)" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="0.65" stroke-width="2" transform="rotate(-2.29061 292.819 210.396)"/>
+        <ellipse cx="293.18" cy="210.02" fill="#cccccc" id="svg_36" opacity="0.75" rx="2.98" ry="15.37" stroke="#cccccc" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" transform="rotate(-2.29061 293.184 210.021)"/>
+        <ellipse cx="335.87" cy="218.59" fill="#7f7f7f" id="svg_41" opacity="0.75" rx="10.49" ry="33.04" stroke="url(#svg_26)" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="0.66" stroke-width="3" transform="rotate(-2.29061 337.819 219.396)"/>
+        <ellipse cx="335.12" cy="216.39" fill="url(#svg_22)" fill-opacity="0.69" id="svg_40" rx="15.5" ry="47.49" stroke="url(#svg_23)" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="0.65" stroke-width="2" transform="rotate(-2.29061 337.819 219.396)"/>
+        <ellipse cx="338.18" cy="219.02" fill="#cccccc" id="svg_39" opacity="0.75" rx="2.98" ry="15.37" stroke="#cccccc" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" transform="rotate(-2.29061 338.184 219.021)"/>
+        <rect fill="#56ffff" height="38" id="svg_43" opacity="0.75" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" width="38" x="427" y="325.5"/>
+        <path d="m466,325.5c20,-16 22,-15 21.5,-15.5c-0.5,-0.5 0.5,34.5 0,34c-0.5,-0.5 -24.5,18.5 -22.5,20.5" fill="#aaffff" id="svg_19" opacity="0.75" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2"/>
+        <text fill="#000000" font-family="serif" font-size="24" id="svg_20" opacity="0.75" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 0.910749 0 43.0877)" x="445" xml:space="preserve" y="337.38206">S</text>
+        <path d="m428,324.5c24,-21 24,-20 23.5,-20.5c-0.5,-0.5 35.5,3.5 35,3" fill="#aaffff" id="svg_21" opacity="0.75" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0"/>
+        <rect fill="#56ffff" height="38" id="svg_31" opacity="0.75" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" width="38" x="425.68" y="128.27"/>
+        <path d="m464.68,128.27c20,-16 22,-15 21.5,-15.5c-0.5,-0.5 0.5,34.5 0,34c-0.5,-0.5 -24.5,18.5 -22.5,20.5" fill="#aaffff" id="svg_30" opacity="0.75" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2"/>
+        <path d="m426.68,127.27c24,-21 24,-20 23.5,-20.5c-0.5,-0.5 35.5,3.5 35,3" fill="#aaffff" id="svg_28" opacity="0.75" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0"/>
+        <text fill="#000000" font-family="serif" font-size="24" id="svg_35" opacity="0.75" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 0.777328 0 38.168)" x="442" xml:space="preserve" y="142.21438">N</text>
+        <line fill="none" id="svg_42" opacity="0.75" stroke="#7f7f7f" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="9" transform="rotate(4.21418 244.5 129)" x1="246" x2="243" y1="148.5" y2="109.5"/>
+        <line fill="none" id="svg_44" opacity="0.75" stroke="#7f7f7f" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="9" transform="rotate(4.21418 289 141.5)" x1="290.5" x2="287.5" y1="161" y2="122"/>
+        <line fill="none" id="svg_45" opacity="0.75" stroke="#7f7f7f" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="9" transform="rotate(4.21418 335 150.5)" x1="336.5" x2="333.5" y1="170" y2="131"/>
+        <line fill="none" id="svg_46" opacity="0.75" stroke="#7f7f7f" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="7" transform="rotate(15.1858 117.5 228.5)" x1="117" x2="118" y1="214.5" y2="242.5"/>
+        <rect fill="none" height="357" id="svg_7" opacity="0.75" stroke="#333333" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="3" width="746" x="11" y="25.5"/>
+        <line fill="none" id="svg_18" opacity="0.75" stroke="#333333" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="74" x2="74" y1="385.5" y2="406.5"/>
+        <line fill="none" id="svg_29" opacity="0.75" stroke="#333333" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="83" x2="83" y1="383.5" y2="408.5"/>
+        <line fill="none" id="svg_47" opacity="0.75" stroke="#333333" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="622" x2="623" y1="0.5" y2="28.5"/>
+        <line fill="none" id="svg_49" opacity="0.75" stroke="#333333" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" x1="631" x2="632" y1="2.5" y2="26.5"/>
+       </g>
+       <g id="small_tube">
+        <line fill="none" id="svg_34" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="415.5" x2="416.5" y1="468.5" y2="521.5"/>
+        <ellipse cx="499.1" cy="498.9" fill="none" id="svg_1" rx="30" ry="87" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="7"/>
+        <line fill="none" id="svg_3" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="17" x1="757.1" x2="499.1" y1="412.9" y2="411.9"/>
+        <line fill="none" id="svg_4" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="17" x1="750.1" x2="505.1" y1="583.9" y2="583.9"/>
+        <ellipse cx="639.1" cy="554.9" fill="#ffd4aa" id="svg_9" rx="63" ry="25" stroke="#ffaaaa" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="3"/>
+        <ellipse cx="639.1" cy="540.9" fill="#ffaaff" id="svg_10" rx="1" ry="0" stroke="#ffaaff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="7"/>
+        <ellipse cx="639.1" cy="554.9" fill="#aaffff" id="svg_15" rx="47" ry="15" stroke="#ffaaff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="4"/>
+        <line fill="none" id="svg_14" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="3" x1="574.1" x2="567.1" y1="394.9" y2="428.9"/>
+        <line fill="none" id="svg_16" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="3" x1="654.1" x2="646.1" y1="397.9" y2="427.9"/>
+        <ellipse cx="497.5" cy="495.5" fill="none" id="svg_28" rx="6" ry="27" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="4"/>
+        <line fill="none" id="svg_30" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="4" x1="414.5" x2="498.5" y1="469.5" y2="466.5"/>
+        <line fill="none" id="svg_32" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="4" x1="414.5" x2="497.5" y1="524.5" y2="522.5"/>
+        <path d="m569.28,428.39l22.1,0l3.06,-8.69l5,16.74l5.56,-16.96l4.87,16.74l5.28,-16.52l5.28,16.63l2.92,-8.15l22.24,0m-78.16,-0.76l1.84,0l0,1.84l-1.84,0l0,-1.84zm78.16,-0.12l1.84,0l0,1.84l-1.84,0l0,-1.84z" fill="none" id="svg_25" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="3"/>
+        <g id="bubbles">
+         <ellipse cx="639" cy="460" fill="#ffff56" id="svg_58" rx="8.5" ry="9.5" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2"/>
+         <ellipse cx="687.5" cy="454.5" fill="#ffff56" id="svg_59" rx="10" ry="9" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2"/>
+         <ellipse cx="661.5" cy="485.5" fill="#ffff56" id="svg_61" rx="8" ry="9" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2"/>
+         <ellipse cx="718.5" cy="484.5" fill="#ffff56" id="svg_62" rx="8" ry="9" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2"/>
+         <ellipse cx="598.5" cy="489.5" fill="#ffff56" id="svg_63" rx="9" ry="8" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2"/>
+         <ellipse cx="629.5" cy="488.5" fill="#ffff56" id="svg_64" rx="9" ry="8" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2"/>
+         <ellipse cx="694.5" cy="491.5" fill="#ffff56" id="svg_65" rx="7" ry="9" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2"/>
+         <ellipse cx="609.5" cy="510.5" fill="#ffff56" id="svg_66" rx="12" ry="8" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2"/>
+         <ellipse cx="664.5" cy="510.5" fill="#ffff56" id="svg_67" rx="12" ry="8" stroke="#ffffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2"/>
+        
+       </g>
+       <svg>
+       <g id="inject"/>
+        <rect fill="url(#svg_2)" fill-opacity="0.87" height="27" id="svg_51" opacity="0.75" stroke="#4c4c4c" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" width="226" x="9.5" y="484.5"/>
+        <rect fill="#56ffff" height="27" id="svg_53" opacity="0.75" stroke="#333333" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" width="56" x="234.5" y="483.5"/>
+        <path d="m279.52,494.53c7.52,10 22.55,10 30.07,0" fill="transparent" id="svg_50" stroke="#00ffff" stroke-width="2" transform="rotate(-88.7213 294.555 498.285)"/>
+        <rect fill="#ffff56" height="11" id="svg_52" opacity="0.75" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" width="144" x="101.5" y="492.5"/>
+        <rect fill="#aa56ff" height="8" id="svg_54" opacity="0.75" stroke="#00ffff" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" width="69" x="246.5" y="494.5"/>
+        <line fill="none" id="svg_56" opacity="0.75" stroke="#666666" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" x1="315.5" x2="385.5" y1="498.5" y2="498.5"/>
+        <animate id="inject"    attributeName="x" attributeType="XML"
+         from="0"  to="230"
+        begin="0s" dur="5s" fill="freeze"
+       /> 
+      </g>
+    
+      
+      
+       <g id="ionization">
+        <ellipse cx="186" cy="491" fill="cyan" id="svg_48" rx="120" ry="100" stroke="purple" stroke-width="2"/>
+        <ellipse cx="186" cy="491" fill="url(#grad1)" id="svg_55" rx="100" ry="80"/>
+        <circle cx="236" cy="541" fill="yellow" id="svg_57" r="8" stroke="yellow" stroke-width="2"/>
+        <circle cx="256" cy="451" fill="yellow" id="svg_60" r="8" stroke="yellow" stroke-width="2"/>
+        <circle cx="196" cy="491" fill="yellow" id="svg_68" r="8" stroke="yellow" stroke-width="2"/>
+        <circle cx="186" cy="471" fill="yellow" id="svg_69" r="6" stroke="yellow" stroke-width="2"/>
+        <circle cx="136" cy="491" fill="yellow" id="svg_70" r="8" stroke="yellow" stroke-width="2"/>
+        <circle cx="121" cy="531" fill="yellow" id="svg_71" r="8" stroke="yellow" stroke-width="2"/>
+        <circle cx="256" cy="511" fill="yellow" id="svg_72" r="6" stroke="yellow" stroke-width="2"/>
+        <circle cx="221" cy="526" fill=" white" id="svg_73" r="6" stroke="1"/>
+        <text fill="black" font-family="Verdana" font-size="15" id="svg_74" x="215" y="530">-</text>
+        <circle cx="141" cy="546" fill=" white" id="svg_75" r="6" stroke="1"/>
+        <text fill="black" font-family="Verdana" font-size="15" id="svg_76" x="136" y="547">-</text>
+        <circle cx="141" cy="436" fill=" white" id="svg_77" r="6" stroke="1"/>
+        <text fill="black" font-family="Verdana" font-size="15" id="svg_78" x="135" y="440">-</text>
+        <circle cx="256" cy="471" fill=" white" id="svg_79" r="6" stroke="1"/>
+        <text fill="black" font-family="Verdana" font-size="15" id="svg_80" x="255" y="477">-</text>
+        <circle cx="196" cy="431" fill=" white" id="svg_81" r="6" stroke="1"/>
+        <text fill="black" font-family="Verdana" font-size="15" id="svg_82" x="191" y="436">-</text>
+        <circle cx="106" cy="481" fill=" white" id="svg_83" r="6" stroke="1"/>
+        <text fill="black" font-family="Verdana" font-size="13" id="svg_84" x="104" y="483">-</text>
+        <ellipse cx="168.5" cy="514.5" fill="#ffff56" id="svg_85" rx="6" ry="5" stroke="#ffff56" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2"/>
+        <ellipse cx="218" cy="455" fill="#ffff56" id="svg_86" rx="6.5" ry="5.5" stroke="#ffff56" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2"/>
+        <ellipse cx="187" cy="543.5" fill="#ffff56" id="svg_87" rx="7.5" ry="7" stroke="#ffff56" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="2"/>
+       </g>
+     </svg>
+          
+  </div>
+  
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(function(){
+  $("#ionization").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(function(){
+    $("#bubbles").hide();
+  });
+});
+
+$(document).ready(function(){
+  $("btn1.btn-group").click(function(){
+    $("#small_tube").hide();
+  });
+});
+
+$(document).ready(function(){
+  $("#inject").click(function(){
+    $(this).animate({
+      left: '430px',
+      opacity: '1.0',
+    });
+  });
+});
+
+$(document).ready(function(){
+    var div = $(svg_25);
+ 
+  $("#btn11").click(function(){
+    $("#bubbles").delay("slow").delay("slow").fadeIn();//show();
+    
+    div.queue(function () {
+      div.delay("slow").css("fill", "red");  
+      div.css("stroke", "red");
+      div.dequeue();
+    });
+    });
+});
+
+$(document).ready(function(){
+    var div = $(svg_25);
+ 
+  $("#btn22").click(function(){
+    $("#small_tube").hide(); //delay("slow").delay("slow").fadeIn();//show();
+    
+    div.queue(function () {
+        $("#ionization").fadeIn();
+        $("#ionization").show();//delay("slow").fadeIn();
+       // $("#small_tube").hide();  //div.css("fill", "red");
+        $("#inject").fadeOut();
+      div.dequeue();
+    });
+    });
+});
+
+
+
+</script>
+<div>
+  <button id='btn11' type="button" display="block" >Inject Sample</button>
+  <button id='btn22' type="button" display="block" >Ionisation</button>
+  <button id='btn3' type="button" onclick="function3()">Acceleration</button>
+  <button id='btn4' type="button" onclick="function4()">Deflection</button>
+  <button id='btn5' type="button" onclick="function5()">Evaluation</button>
+  </div>  
+
+</html>
